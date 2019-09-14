@@ -1,0 +1,77 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Lucida Bright", Georgia, serif;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+header {
+	box-sizing: border-box;
+	background-color: lightgray;
+	position: relative;
+}
+.header_image1 {
+	text-align: left;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	display: inline-block;
+}
+.header_image1 img{
+	width: 15vw;
+	height: auto;
+}
+nav {
+	background-color: #821918;
+	clear: right;
+}
+ul {
+	padding: 10px 0px;
+	margin: 0px;
+}
+li {
+	padding: 0px 15px;
+	display: inline-block;
+	font-weight: bold;
+}
+.blog_img {
+  text-align: center;
+  position: relative;
+}
+.blog_img img {
+	height: 200px;
+	width: 100%;
+	opacity: 0.4;
+	border-radius: 20px;
+}
+.blog_img p {
+	position: absolute;
+	top: 5px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 5em;
+	letter-spacing: 60px;
+
+}
+.blog_img img:hover {
+	opacity: 0.6;
+}
+article {
+	margin-left: 168px;
+}
+.benjamin img {
+	width: 30vw;
+	height: auto;
+	/*display: inline-block;*/
+}
+.benjamin_text {
+	box-sizing: border-box;
+}
+.benjamin_img {
+	float: left;
+	width: 32vw;
+}
