@@ -1,0 +1,203 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Lucida Bright", Georgia, serif;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+header {
+	box-sizing: border-box;
+	background-color: lightgray;
+	position: relative;
+}
+.header_image {
+	text-align: left;
+	padding-left: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 5px;
+	display: inline-block;
+}
+.header_image img{
+	width: 20vw;
+	height: auto;
+}
+.anu_front {
+	display: inline-block;
+	width: 60vw;
+	text-align: center;
+	position: absolute;
+	top: 35%;
+}
+.anu_front span {
+	font-size: 2.6vw;
+	font-weight: bold;
+	height: auto;
+	width: 100%;
+}
+nav {
+	background-color: #821918;
+	clear: right;
+}
+ul {
+	padding: 10px 0px;
+	margin: 0px;
+}
+li {
+	padding: 0px 15px;
+	display: inline-block;
+	font-weight: bold;
+}
+
+.this_is {
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	word-wrap: break-word;
+}
+.latest {
+	color: white;
+	background-color: darkgray;
+	margin: 20px 0px;
+	padding:  2px ;
+	}
+.latest h2 {
+	padding: 5px 0px 5px 15px;
+	margin: 0;
+}
+.row1 {
+	box-sizing: border-box;
+	padding: 0px 15px;
+}
+.row1 .first_img_div, .row1 .second_img_div {
+	display: inline;
+	width: 50%;
+	float: left;
+}
+.row1 .first_img_div img, .row1 .second_img_div img {
+	width: 100%;
+	height: 350px;
+	border-radius: 8px;
+}
+.row2 {
+	box-sizing: border-box;
+	padding: 0px 15px;
+	clear: left;
+}
+.row2 .third_img_div, .fourth_img_div {
+	display: inline;
+	width: 50%;
+	float: left;
+}
+.row2 .third_img_div img, .row2 .fourth_img_div img {
+	width: 100%;
+	height: 350px;
+	border-radius: 8px;
+}
+.row1 .first_img_div, .row2 .third_img_div {
+	padding-right: 100px;
+	box-sizing: border-box;
+}
+.row1 .second_img_div, .row2 .fourth_img_div {
+	padding-left: 100px;
+	box-sizing: border-box;
+}
+.image_container p {
+	font-weight: bold;
+}
+footer { 
+	clear: left;
+	text-align: center;
+	border-top: 8px solid darkgray;
+ }
+footer div img{
+	width: 10vw;
+	height: auto;
+}
+
+
+
+
+/* -------FLEX SOLUTION----------
+
+.image_container {
+	background-color: lightgray;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.image_container .img {
+	flex: 0 45%;
+	width: 100%;
+}
+
+.image_container .img img {
+	height: 400px;
+	width:  100%;
+}*/
+
+
+
+/* ---------FLOAT SOLUTION - DOESNT WORK -----------
+
+.image_container .img {
+	width: 45%;
+	display: inline-block;
+	
+}
+.image_container .first_img, .image_container .third_img {
+	float: left;
+}
+.image_container img {
+	width: 99%;
+	height: 300px;
+}
+.image_container .third_img {
+	float: left;
+}
+.image_container .fourth_img {
+	float: right;
+}
+
+*/
+
+
+/* POSITION: ABSOLUTE SOLUTION - WORKED, BUT ...
+
+.image_container .first_img img {
+	height: 362px;
+	width: 650px;
+	margin-left: 15px;
+	margin-right: 40px
+}
+.image_container .second_img img {
+	height: 362px;
+	width: 650px;
+	position: absolute;
+	top: 503px;
+	right: 15px;
+
+}
+.image_container .third_img img {
+	height: 362px;
+	width: 650px;
+}
+.image_container .fourth_img img {
+	height: 362px;
+	width: auto;
+	position: absolute;
+	right: 15px;
+	bottom: -575px;
+}*/
+
+footer{ 
+	text-align: center;
+	border-top: 8px solid darkgray;
+ }
+footer div img{
+	width: 10vw;
+	height: auto;
+}
